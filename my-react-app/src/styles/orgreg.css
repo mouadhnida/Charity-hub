@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+
+/* orgreg.css */
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Adjust the height as needed */
+  font-family: 'Tsukimi Rounded', sans-serif;
+  border: 1px solid #96BD5A;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px; /* Adjust the width as needed */
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative; /* Add position relative */
+}
+
+.country-container {
+  display: flex;
+  gap: 20px;
+}
+
+.causes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.causes-label {
+  font-weight: bold;
+}
+
+.submit-button {
+  margin-top: 20px;
+  background-color: #96BD5A !important; /* Set the background color to #96BD5A */
+  color: #ffffff; /* Set the text color to white */
+  font-family: 'Tsukimi Rounded', sans-serif  !important; /* Set the font to 'Tsukimi Rounded' */
+  border: none; /* Remove the button border */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #8db149 !important; /* Set the background color when hovering */
+}
+
+.submit-button:active {
+  background-color: #83a944 !important; /* Set the background color when active */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #96BD5A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-family: 'Tsukimi Rounded', sans-serif;
+  color: #fff;
+}
+
+.navbar  a{
+  padding: 5px 100px;
+}
+
+.website-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  height: 36px;
+  border-radius: 8px;
+}
+
+.phone-input {
+  height: 30px;
+}
+
+.error-text {
+  margin-top: 5px;
+  font-size: 12px;
+  color: red;
+  position: absolute; /* Add position absolute */
+  top: 100%; /* Position below the input field */
+  left: 0; /* Align with the left side of the form */
+  width: 100%; /* Occupy the full width of the form */
+}

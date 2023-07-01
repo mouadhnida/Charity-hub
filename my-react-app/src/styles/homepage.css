@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.homepage{
+  background:url("../assets/homepage.png");
+  min-width:100vw;
+  min-height:100vh;
+  background-position-y: -50px;
+}
+
+
+.homepage-con{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+}
+
+
+.homepage-con-title{
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size:8rem;
+}
+
+.homepage-con-subtitle{
+  font-family: 'Sacramento', cursive; 
+  justify-self: flex-end;
+  align-self: flex-end;
+  font-size:4rem;
+}
+
+.homepage-con-button{
+   justify-self: flex-end;
+  align-self: flex-end;
+  width:20%;
+  background-color :#96BD5A !important;
+  font-size:1.5em !important;
+  border-radius : 30px !important;
+
+    font-family: 'Tsukimi Rounded', sans-serif !important;
+  color:black !important;
+  padding:5px 10px !important;
+  margin-right:2% !important;
+  border : 0px solid transparent;
+}
+
+
+.homepage-nav{
+  display:flex;
+  gap:50px;
+  font-family:'Tsukimi Rounded';
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-top:3%;
+  margin-right:5%;
+  font-size:1.2rem;
+}
+
+
+a{
+  color:inherit;
+  text-decoration : none;
+}
+

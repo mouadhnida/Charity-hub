@@ -1,0 +1,42 @@
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.form-fields {
+  width: 50%;
+}
+
+.form-fields .MuiTextField-root {
+  margin-bottom: 1.5rem;
+}
+
+.form-fields .MuiButton-root {
+  width: 100%;
+}

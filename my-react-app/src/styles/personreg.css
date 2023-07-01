@@ -1,0 +1,67 @@
+
+.personreg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.personreg-form-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.personreg-heading {
+  margin-bottom: 1.5rem;
+}
+
+.personreg-field-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.personreg-field-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}
+
+.personreg-field {
+  margin-right: 10px;
+}
+
+.personreg-input-field {
+  flex-grow: 1;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.personreg-submit-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.personreg-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.personreg-submit-button:active {
+  background-color: #004080;
+}
